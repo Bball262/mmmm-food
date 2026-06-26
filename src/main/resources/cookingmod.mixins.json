@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.bball_262.cookingmod.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

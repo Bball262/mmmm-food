@@ -1,0 +1,10 @@
+package net.bball_262.cookingmod.items;
+
+import net.bball_262.cookingmod.CookingMod;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.item.Item;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class ModItems {
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(BuiltInRegistries.ITEM, CookingMod.MOD_ID);
+}
